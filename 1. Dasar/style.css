@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #fd790d, #fff2e3);
+    padding: 60px 20px;
+}
+
+/* CARD */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 149, 1, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* BUTTON */
+.btn-detail {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
